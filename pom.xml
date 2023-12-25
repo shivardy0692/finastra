@@ -66,7 +66,7 @@
             <artifactId>tomcat7-maven-plugin</artifactId>
             <version>2.2</version>
             <configuration>
-                <url>http:${TOMCAT_URL}/manager</url>
+                <url>http:${TOMCAT_URL}</url>
                 <server>TomcatServer</server>
                 <username>${TOMCAT_MANAGER_USER}</username>
                 <password>${TOMCAT_MANAGER_PASSWORD}</password>
