@@ -68,7 +68,7 @@
             <configuration>
                 <url>http:${TOMCAT_URL}</url>
                 <server>TomcatServer</server>
-                <username>${TOMCAT_MANAGER_USER}</username>
+                <username>${TOMCAT_MANAGER_USER}/manager/test</username>
                 <password>${TOMCAT_MANAGER_PASSWORD}</password>
                 <path>/test</path>
             </configuration>
