@@ -66,10 +66,10 @@
             <artifactId>tomcat7-maven-plugin</artifactId>
             <version>2.2</version>
             <configuration>
-                <url>http://13.232.206.146:8081/manager</url>
+                <url>http:${TOMCAT_URL}/manager</url>
                 <server>TomcatServer</server>
-                <username>tomcat</username>
-                <password>tomcat</password>
+                <username>${TOMCAT_MANAGER_USER}</username>
+                <password>${TOMCAT_MANAGER_PASSWORD}</password>
                 <path>/test</path>
             </configuration>
         </plugin>
